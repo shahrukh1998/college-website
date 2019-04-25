@@ -19,6 +19,7 @@ import { UniversityDetailsComponent } from './university-details/university-deta
 import { NiuComponent } from './university-details/niu/niu.component';
 import { GlocalComponent } from './university-details/glocal/glocal.component';
 import { CommonComponent } from './common/common.component';
+import { ApplyFormComponent } from './apply-form/apply-form.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { CommonComponent } from './common/common.component';
     UniversityDetailsComponent,
     NiuComponent,
     GlocalComponent,
-    CommonComponent
+    CommonComponent,
+    ApplyFormComponent
   ],
   imports: [
     BrowserModule,
