@@ -18,6 +18,7 @@ import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.componen
 import { UniversityDetailsComponent } from './university-details/university-details.component';
 import { NiuComponent } from './university-details/niu/niu.component';
 import { GlocalComponent } from './university-details/glocal/glocal.component';
+import { CommonComponent } from './common/common.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { GlocalComponent } from './university-details/glocal/glocal.component';
     PrivacyPolicyComponent,
     UniversityDetailsComponent,
     NiuComponent,
-    GlocalComponent
+    GlocalComponent,
+    CommonComponent
   ],
   imports: [
     BrowserModule,
